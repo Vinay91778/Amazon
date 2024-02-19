@@ -1,0 +1,313 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    background-color: #222222;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+}
+
+#sub-nav{
+    /* border: 2px solid; */
+    height: 42px;
+    width: 70%;
+    margin: auto;
+    list-style: none;
+    /* background-color: black; */
+}
+
+.a1{
+    /* border: 2px solid red; */
+    height: 42px;
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    top: 12px;
+
+}
+
+.a2{
+    /* border: 2px solid; */
+    width: 30%;
+    color: #AAAAAA;
+    margin: auto;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 12px;
+    left: 420px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.a3{
+    /* border: 2px solid; */
+    width: 20%;
+    color: #AAAAAA;
+    margin: auto;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 12px;
+    left: 950px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#nav1{
+    border: 2px solid;
+    height: 90vh;
+    background-image: linear-gradient( to right, #000 40%, transparent 58% ),url(./image/MLP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to left rgb(24, 24, 24));
+}
+
+.a4{
+    /* border: 2px solid; */
+    height:80vh;
+    width: 80%;
+    background-image: radial-gradient(to right black,black,orange);
+}
+
+#nav2{
+    /* border: 2px solid; */
+    width: 50%;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color: #ffffff;
+}
+
+#nav2 h1{
+    /* border: 2px solid; */
+    width: 100%;
+    font-family: "Amazon Ember";
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#nav2 h2{
+    /* border: 2px solid; */
+    width: 100%;
+    font-family: "Amazon Ember";
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#nav2 button{
+    /* border: 2px solid; */
+    width: 40%;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 700;
+    margin-top: 8px;
+    color: #ffffff;
+    background-color: #0f79af;
+}
+
+#nav3{
+    border: 2px solid;
+    height: 90vh;
+    background-image: url(./image/TVOD_MLP_Right.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav4{
+    /* border: 2px solid; */
+    width: 50%;
+    position: absolute;
+    top: 740px;
+    left: 50px;
+    color: #ffffff;
+}
+
+#nav4 h1{
+     /* border: 2px solid;  */
+    width: 100%;
+    font-family: "Amazon Ember";
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#nav4 h2{
+     /* border: 2px solid;  */
+    width: 100%;
+    font-family: "Amazon Ember";
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+#nav4 button{
+     /* border: 2px solid;  */
+    width: 40%;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #0f79af;
+}
+
+
+
+#nav5{
+    /* border: 2px solid; */
+    height: 90vh;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 70px; 
+    font-family: "Amazon Ember";
+}
+
+#nav5 h1{
+    /* border: 2px solid; */
+    width: 100%;  
+    font-size: 40px;
+    font-weight: 200;
+   
+}
+
+
+#nav5 h3{
+    /* border: 2px solid; */
+    width: 100%; 
+    font-size: 20px;
+    font-weight: 200;  
+    margin-top: 10px;
+}
+
+.s1:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+    cursor: pointer;
+}
+
+.a6{
+    /* border: 2px solid; */
+    width: 50%;
+    position: absolute;
+    left: 770px;
+    top: 1430px;
+    
+}
+
+.img1{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.img2{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.img3{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.img4{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+#nav6{
+    height: 96vh;
+    width: 100%;
+    background-image: url(./image/MLP_Template_Image_Left.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 30px;
+}
+
+#nav7{
+    /* border: 2px solid; */
+    width: 100%;
+    position: absolute;
+    top: 2190px;
+    left: 770px;
+    color: #ffffff;
+
+}
+
+#nav7 h1{
+    /* border: 2px solid; */
+    width: 100%;
+    font-weight: 300;
+}
+
+#nav7 h2{
+    /* border: 2px solid; */
+    width: 100%;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 30px;
+    line-height: 27px;
+}
+
+#nav7 button{
+    width: 20%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0f79af;
+}
+
+#nav8{
+    border: 2px solid;
+    width: 100%;
+    position: absolute;
+    top: 2820px;
+    padding: 20px;
+    background-color: #222222;
+}
+
+#nav8 img{
+    /* border: 2px solid; */
+    
+    margin-left: 650px;
+    padding: 3px;
+}
+
+#nav8 ol{
+    /* border: 2px solid; */
+    margin-left: 500px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #0f79af;
+}
+
+#nav8 p{
+    /* border: 2px solid; */
+    color: #949494;
+    margin-top: 18px;
+    margin-left: 550px;
+    padding: 3px;
+}
